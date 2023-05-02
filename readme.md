@@ -26,5 +26,6 @@ An example `metadata.tsv` file exists in the project folder, but to create your 
 | chr1:1000000-2000000 | 325026 | C | G | 0.17 |
 | chr1:1000000-2000000 | 375797 | A | T | 0.10 |
 | chr1:1000000-2000000 | 423797 | T | A | 0.04 |
+| chr1:1000000-2000000 | 518726 | C | G | 0.04 |
 
 where `chr` is the chromosome, `pos` is the position of the SNP, `ref` is the major allele, `alt` is the minor allele, and `maf` is the minor allele frequency.
