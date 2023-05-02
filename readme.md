@@ -16,3 +16,15 @@ To run the code with example files `align_sort.bam` and `metadata.tsv`, run the 
 ```
 Rscript snpcaller.R align_sort.bam metadata.tsv
 ```
+
+## Format for `metadata.tsv`
+An example `metadata.tsv` file exists in the project folder, but to create your own test file, follow the following format:
+
+| chr | pos | ref | alt | maf |
+| :--- | :--- | :--- | :--- | :--- |
+| chr1:1000000-2000000 | 172741 | A | T | 0.05 |
+| chr1:1000000-2000000 | 325026 | C | G | 0.17 |
+| chr1:1000000-2000000 | 375797 | A | T | 0.10 |
+| chr1:1000000-2000000 | 423797 | T | A | 0.04 |
+
+where `chr` is the chromosome, `pos` is the position of the SNP, `ref` is the major allele, `alt` is the minor allele, and `maf` is the minor allele frequency.
